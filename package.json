@@ -1,7 +1,7 @@
 {
   "name": "redux-react",
   "version": "1.0.0",
-  "description": "Minimal React+Redux+D3 app example",
+  "description": "Test labels overlapping",
   "main": "index.js",
   "babel": {
     "presets": [
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilyabo/react-redux-app-starter-kit.git"
+    "url": "git+https://github.com/AlexeyShuklin/test_overlapping"
   },
   "keywords": [
     "redux",
@@ -28,10 +28,6 @@
   ],
   "author": "Ilya Boyandin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ilyabo/react-redux-app-starter-kit/issues"
-  },
-  "homepage": "https://github.com/ilyabo/react-redux-app-starter-kit#readme",
   "dependencies": {
     "babel-core": "^6.3.15",
     "babel-loader": "^6.2.0",

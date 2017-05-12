@@ -1,6 +1,4 @@
 import {
-  ADD_POINTS,
-  REMOVE_POINTS,
   RESTART
 } from '../actions'
 
@@ -9,33 +7,13 @@ export default createReducer(
   {},
 
   {
-
-    [ ADD_POINTS ] (state, action) {
-
-      let { points } = state;
-      return {
-        ...state,
-        points: points.concat(action.points)
-      }
-
-    },
-
-    [ REMOVE_POINTS ] (state, action) {
-
-      let { points } = state;
-      return {
-        ...state,
-        points: points.slice(points, - action.count)
-      }
-
-    },
-
     [ RESTART ] (state, action) {
 
-      return {
-        ...state,
-        points: []
-      }
+		let { points } = state;
+		return {
+		...state,
+		points: [].concat(action.points)
+		}
 
     }
   }
