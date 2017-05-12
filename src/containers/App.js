@@ -17,9 +17,9 @@ export class App extends Component {
     let { addPoints, removePoints, restart } = this.props;
     return (
       <div className="App">
-        <div>Label overlapping</div>
-		<ButtonPane {...{ restart }} />
-        <LabelOverlapping width={ 400 } height={ 400 }
+        <div>Label overlapping. Gets Random 50 points and delete overlapping. To test, pls change num of circles in initialState.</div>
+		{/*<ButtonPane {...{ restart }} />*/}
+        <LabelOverlapping width={ 600 } height={ 600 }
                      points={ appState.points }/>
       </div>
     )
